@@ -102,3 +102,10 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Production
+public/*
+!public/favicon.ico
+!public/logo192.png
+!public/logo512.png
+!public/manifest.json

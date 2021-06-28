@@ -1,0 +1,12 @@
+$chart-background-color: rgb(255, 99, 132);
+$chart-border-color: rgba(255, 99, 132, 0.2);
+
+:export {
+  chartBackgroundColor: $chart-background-color;
+  chartBorderColor: $chart-border-color;
+}
+
+.Chart {
+  margin: 5%;  
+}
+  

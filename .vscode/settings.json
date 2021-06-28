@@ -1,0 +1,28 @@
+{
+  // Set default vscode editor settings
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "editor.fontSize": 13,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.tabSize": 2,
+  "editor.smoothScrolling": true,
+  "editor.minimap.scale": 2,
+  "editor.renderLineHighlight": "gutter",
+  
+  // Set default visual studio settings
+  "workbench.fontAliasing": "auto",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.labelFormat": "short",
+  "workbench.editor.openPositioning": "last",
+
+  // prettier
+  "prettier.singleQuote": true,
+
+  // Enable settings per-language
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

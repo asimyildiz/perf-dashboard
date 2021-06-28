@@ -1,0 +1,338 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> not renders the Chart Component if loading was successful 1`] = `
+<div
+  class="Home"
+>
+  <nav
+    class="navbar navbar-expand-lg navbar-light bg-light"
+  >
+    <a
+      class="navbar-brand"
+      href="#home"
+    >
+      Perf Dashboard
+    </a>
+    <button
+      aria-controls="basic-navbar-nav"
+      aria-label="Toggle navigation"
+      class="navbar-toggler collapsed"
+      type="button"
+    >
+      <span
+        class="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      class="navbar-collapse collapse"
+      id="basic-navbar-nav"
+    >
+      <div
+        class="mr-auto navbar-nav"
+      >
+        <div
+          class="nav-item dropdown"
+        >
+          <a
+            aria-expanded="false"
+            aria-haspopup="true"
+            class="dropdown-toggle nav-link"
+            href="#"
+            id="basic-nav-dropdown"
+            role="button"
+          >
+            Urls
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div
+    class="container-fluid"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-6"
+      >
+        <div
+          class="Chart"
+        />
+      </div>
+      <div
+        class="col-6"
+      >
+        <div
+          class="Chart"
+        />
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col-6"
+      >
+        <div
+          class="Chart"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Home /> renders an error if loading failed 1`] = `
+<div
+  class="Home"
+>
+  <nav
+    class="navbar navbar-expand-lg navbar-light bg-light"
+  >
+    <a
+      class="navbar-brand"
+      href="#home"
+    >
+      Perf Dashboard
+    </a>
+    <button
+      aria-controls="basic-navbar-nav"
+      aria-label="Toggle navigation"
+      class="navbar-toggler collapsed"
+      type="button"
+    >
+      <span
+        class="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      class="navbar-collapse collapse"
+      id="basic-navbar-nav"
+    >
+      <div
+        class="mr-auto navbar-nav"
+      >
+        <div
+          class="nav-item dropdown"
+        >
+          <a
+            aria-expanded="false"
+            aria-haspopup="true"
+            class="dropdown-toggle nav-link"
+            href="#"
+            id="basic-nav-dropdown"
+            role="button"
+          >
+            Urls
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div
+    class="container-fluid"
+  >
+    <p>
+      Oops, Failed to load list!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Home /> renders the Chart Component if loading was successful 1`] = `
+<div
+  class="Home"
+>
+  <nav
+    class="navbar navbar-expand-lg navbar-light bg-light"
+  >
+    <a
+      class="navbar-brand"
+      href="#home"
+    >
+      Perf Dashboard
+    </a>
+    <button
+      aria-controls="basic-navbar-nav"
+      aria-label="Toggle navigation"
+      class="navbar-toggler collapsed"
+      type="button"
+    >
+      <span
+        class="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      class="navbar-collapse collapse"
+      id="basic-navbar-nav"
+    >
+      <div
+        class="mr-auto navbar-nav"
+      >
+        <div
+          class="nav-item dropdown"
+        >
+          <a
+            aria-expanded="false"
+            aria-haspopup="true"
+            class="dropdown-toggle nav-link"
+            href="#"
+            id="basic-nav-dropdown"
+            role="button"
+          >
+            Urls
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div
+    class="container-fluid"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-6"
+      >
+        <div
+          class="Chart"
+        />
+      </div>
+      <div
+        class="col-6"
+      >
+        <div
+          class="Chart"
+        />
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col-6"
+      >
+        <div
+          class="Chart"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Home /> renders the loading status if data invalid 1`] = `
+<div
+  class="Home"
+>
+  <nav
+    class="navbar navbar-expand-lg navbar-light bg-light"
+  >
+    <a
+      class="navbar-brand"
+      href="#home"
+    >
+      Perf Dashboard
+    </a>
+    <button
+      aria-controls="basic-navbar-nav"
+      aria-label="Toggle navigation"
+      class="navbar-toggler collapsed"
+      type="button"
+    >
+      <span
+        class="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      class="navbar-collapse collapse"
+      id="basic-navbar-nav"
+    >
+      <div
+        class="mr-auto navbar-nav"
+      >
+        <div
+          class="nav-item dropdown"
+        >
+          <a
+            aria-expanded="false"
+            aria-haspopup="true"
+            class="dropdown-toggle nav-link"
+            href="#"
+            id="basic-nav-dropdown"
+            role="button"
+          >
+            Urls
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div
+    class="container-fluid"
+  >
+    <p>
+      Please select an url to display a web-site performance...
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Home /> renders the loading status if requesting data 1`] = `
+<div
+  class="Home"
+>
+  <nav
+    class="navbar navbar-expand-lg navbar-light bg-light"
+  >
+    <a
+      class="navbar-brand"
+      href="#home"
+    >
+      Perf Dashboard
+    </a>
+    <button
+      aria-controls="basic-navbar-nav"
+      aria-label="Toggle navigation"
+      class="navbar-toggler collapsed"
+      type="button"
+    >
+      <span
+        class="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      class="navbar-collapse collapse"
+      id="basic-navbar-nav"
+    >
+      <div
+        class="mr-auto navbar-nav"
+      >
+        <div
+          class="nav-item dropdown"
+        >
+          <a
+            aria-expanded="false"
+            aria-haspopup="true"
+            class="dropdown-toggle nav-link"
+            href="#"
+            id="basic-nav-dropdown"
+            role="button"
+          >
+            Urls
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div
+    class="container-fluid"
+  >
+    <p>
+      Please select an url to display a web-site performance...
+    </p>
+  </div>
+</div>
+`;

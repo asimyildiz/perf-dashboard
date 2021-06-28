@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> renders 1`] = `
+<div
+  className="App"
+>
+  <div>
+    <h1>
+      Welcome Home!
+    </h1>
+  </div>
+</div>
+`;
