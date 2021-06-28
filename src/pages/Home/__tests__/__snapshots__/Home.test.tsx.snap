@@ -54,14 +54,14 @@ exports[`<Home /> not renders the Chart Component if loading was successful 1`] 
       class="row"
     >
       <div
-        class="col-6"
+        class="col-lg-6 col-md-6 col-sm-12 col-12"
       >
         <div
           class="Chart"
         />
       </div>
       <div
-        class="col-6"
+        class="col-lg-6 col-md-6 col-sm-12 col-12"
       >
         <div
           class="Chart"
@@ -72,7 +72,7 @@ exports[`<Home /> not renders the Chart Component if loading was successful 1`] 
       class="row"
     >
       <div
-        class="col-6"
+        class="col-lg-6 col-md-6 col-sm-12 col-12"
       >
         <div
           class="Chart"
@@ -194,14 +194,14 @@ exports[`<Home /> renders the Chart Component if loading was successful 1`] = `
       class="row"
     >
       <div
-        class="col-6"
+        class="col-lg-6 col-md-6 col-sm-12 col-12"
       >
         <div
           class="Chart"
         />
       </div>
       <div
-        class="col-6"
+        class="col-lg-6 col-md-6 col-sm-12 col-12"
       >
         <div
           class="Chart"
@@ -212,7 +212,7 @@ exports[`<Home /> renders the Chart Component if loading was successful 1`] = `
       class="row"
     >
       <div
-        class="col-6"
+        class="col-lg-6 col-md-6 col-sm-12 col-12"
       >
         <div
           class="Chart"

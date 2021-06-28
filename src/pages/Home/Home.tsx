@@ -53,7 +53,7 @@ const Home: FC<Props> = (): JSX.Element => {
     return gridKeys.map((rowKeys: string[], index: number) => (
       <Row key={`row_${rowKeys[index]}`}>
         {rowKeys.map((colKey) => (
-          <Col key={colKey} xs="6">
+          <Col key={colKey} xs="12" sm="12" md="6" lg="6">
             <Chart
               title={colKey}
               devices={devices}
